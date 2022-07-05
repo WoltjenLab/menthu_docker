@@ -4,7 +4,7 @@ created by Ryo NIWA
 ## How to use menthu_docker
 ```bash=
 docker pull geedrn/menthu:latest
-docker run geedrn/menthu:latest
+docker run --rm -dp 3838:3838 geedrn/menthu:latest
 ```
 After exectution, go to http://localhost:3838
 
