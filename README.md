@@ -12,3 +12,9 @@ After exectution, go to http://localhost:3838
 Docker file was modified from the original repository of MENTHU.
 https://github.com/Dobbs-Lab/MENTHU
 
+## MENTHU_set
+menthu_set.zip includes the components of rocker/shiny and original MENTHU scripts.
+Users can simply download the zip file, defrost it and then docker build in the directory to make a new image.
+Some features from rocker/shiny was adjusted to have localhost correctly and debug the error mainly from rentrez package on CRAN.
+
+https://github.com/rocker-org/shiny
