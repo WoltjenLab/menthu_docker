@@ -8,6 +8,12 @@ docker run --rm -dp 3838:3838 geedrn/menthu:latest
 ```
 After exectution, go to http://localhost:3838
 
+```bash=
+# download menthu_set.zip and open it
+cd menthu_set
+docker build . -t IMAGE_NAME
+```
+
 ## reference
 Docker file was modified from the original repository of MENTHU.
 https://github.com/Dobbs-Lab/MENTHU
