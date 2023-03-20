@@ -8,6 +8,7 @@ docker run --rm -dp 3838:3838 geedrn/menthu:latest
 ```
 After exectution, go to http://localhost:3838
 
+## For people who want to make your own image
 ```bash=
 # download menthu_set.zip and open it
 cd menthu_set
