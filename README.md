@@ -15,7 +15,7 @@ cd menthu_set
 docker build . -t IMAGE_NAME
 ```
 
-## reference
+## Reference
 Docker file was modified from the original repository of MENTHU.
 https://github.com/Dobbs-Lab/MENTHU
 
